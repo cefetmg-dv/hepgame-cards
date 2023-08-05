@@ -19,7 +19,7 @@ jobs:
     steps:
 
       - name: 'Checkout 🛎️'
-        uses: 'actions/checkout@v2'
+        uses: 'actions/checkout@v3'
 
       - name: 'Export "cards" directory to "cefetmg-dv.github.io/hepgame" repository 🚀'
         uses: cpina/github-action-push-to-another-repository@main

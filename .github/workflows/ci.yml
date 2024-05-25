@@ -34,7 +34,7 @@ jobs:
           rm -f ./cards/imagens/*.JPG
           rm -f ./cards/imagens/*.JPEG
       - name: 'Export "cards" directory to "cefetmg-dv.github.io/hepgame" repository'
-        uses: cpina/github-action-push-to-another-repository@v1
+        uses: cpina/github-action-push-to-another-repository@main
         env:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
         with:

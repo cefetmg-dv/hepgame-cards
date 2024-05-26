@@ -1,12 +1,15 @@
 name: Continuous Integration
 
 on:
-  # Runs on pushes targeting the default branch
-  push:
-    branches: [ main ]
-  pull_request:
-    types: [closed]
-    branches: [ main ]
+  # # Runs on pushes targeting the default branch
+  # push:
+  #   branches: [ main ]
+  # pull_request:
+  #   types: [closed]
+  #   branches: [ main ]
+  
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 # Allow one concurrent deployment
 concurrency:
@@ -14,14 +17,23 @@ concurrency:
     cancel-in-progress: true
 
 jobs:
-  build:
+  update-game-repository:
     runs-on: 'ubuntu-latest'
     steps:
-
-      - name: 'Checkout 🛎️'
-        uses: 'actions/checkout@v3'
-
-      - name: 'Export "cards" directory to "cefetmg-dv.github.io/hepgame" repository 🚀'
+      - name: 'Checkout'
+        uses: 'actions/checkout@v4'
+      - name: Resize images for production
+        run: |
+          sudo apt-get install -y imagemagick
+          mogrify -resize 600 -format png ./cards/imagens/*[.png,.jpg,.jpeg,.PNG,.JPG,.JPEG]
+      - name: Remove unnecessary files
+        run: |
+          rm -f ./cards/imagens/*.jpg
+          rm -f ./cards/imagens/*.jpeg
+          rm -f ./cards/imagens/*.PNG
+          rm -f ./cards/imagens/*.JPG
+          rm -f ./cards/imagens/*.JPEG
+      - name: 'Export "cards" directory to "cefetmg-dv.github.io/hepgame" repository'
         uses: cpina/github-action-push-to-another-repository@main
         env:
           SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
@@ -31,5 +43,6 @@ jobs:
           destination-repository-name: 'hepgame'
           target-branch: 'main'
           target-directory: 'src/assets/cards'
+          user-name: 'André L. Maravilha'
           user-email: 'andre.maravilha@outlook.com'
-          commit-message: 'Atualiza cartas a partir de "hepgame-cards"'
+          commit-message: 'Atualização automática de cartas a partir de "hepgame-cards"'

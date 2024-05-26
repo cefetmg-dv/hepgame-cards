@@ -1,9 +1,8 @@
 ---
-id: 21
-nome: "Decaimento Beta"
-deck: "Gell-Mann"
+nome: "decaimento-beta"
+deck: "gell-mann"
 genio: false
-imagem: "decaimento-beta.png"
+imagem: "decaimento-beta"
 tags:
   - "tag 001"
   - "tag 001"

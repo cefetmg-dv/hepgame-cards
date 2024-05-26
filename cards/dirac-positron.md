@@ -1,9 +1,8 @@
 ---
-id: 8
-nome: "Pósitron"
-deck: "Dirac"
+nome: "positron"
+deck: "dirac"
 genio: false
-imagem: "positron.png"
+imagem: "positron"
 tags:
   - "tag 001"
   - "tag 001"

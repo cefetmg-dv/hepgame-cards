@@ -1,9 +1,8 @@
 ---
-id: 17
-nome: "Glashow-Salam_Weinberg"
-deck: "GSW"
+nome: "glashow-Salam-weinberg"
+deck: "gsw"
 genio: true
-imagem: "gsw.png"
+imagem: "gsw"
 tags:
   - "tag 001"
   - "tag 001"

@@ -1,9 +1,8 @@
 ---
-id: 21
-nome: "Hidrogênio"
+nome: "hidrogenio"
 deck: "wincon"
 genio: false
-imagem: "hidrogenio.png"
+imagem: "hidrogenio"
 tags:
   - "tag 001"
   - "tag 001"

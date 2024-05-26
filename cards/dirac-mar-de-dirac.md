@@ -1,9 +1,8 @@
 ---
-id: 7
-nome: "Mar de Dirac"
+nome: "mar-de-dirac"
 deck: "Dirac"
 genio: false
-imagem: "mar-de-dirac.png"
+imagem: "mar-de-dirac"
 tags:
   - "tag 001"
   - "tag 001"

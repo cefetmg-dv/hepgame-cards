@@ -1,9 +1,8 @@
 ---
-id: 18
-nome: "Bóson W"
-deck: "GSW"
+nome: "boson-w"
+deck: "gsw"
 genio: false
-imagem: "bosonW.png"
+imagem: "boson-w"
 tags:
   - "tag 001"
   - "tag 001"

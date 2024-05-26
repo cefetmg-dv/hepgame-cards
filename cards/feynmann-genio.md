@@ -1,9 +1,8 @@
 ---
-id: 9
-nome: "Feynmann"
-deck: "Feynmann"
+nome: "feynmann"
+deck: "feynmann"
 genio: true
-imagem: "feynmann.png"
+imagem: "feynmann"
 tags:
   - "tag 001"
   - "tag 001"

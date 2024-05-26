@@ -1,9 +1,8 @@
 ---
-id: 15
-nome: "Efeito Schwinger"
-deck: "Feynmann"
+nome: "efeito-schwinger"
+deck: "feynmann"
 genio: false
-imagem: "efeito-schwinger.png"
+imagem: "efeito-schwinger"
 tags:
   - "tag 001"
   - "tag 001"

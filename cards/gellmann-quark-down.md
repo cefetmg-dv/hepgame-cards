@@ -1,9 +1,8 @@
 ---
-id: 3
-nome: "Quark Down"
-deck: "Gell-Mann"
+nome: "quark-down"
+deck: "gell-mann"
 genio: false
-imagem: "quark-down.png"
+imagem: "quark-down"
 tags:
   - "tag 001"
   - "tag 001"

@@ -1,9 +1,8 @@
 ---
-id: 1
-nome: "Murray Gell-Mann"
-deck: "Gell-Mann"
+nome: "murray-gell-mann"
+deck: "gell-mann"
 genio: true
-imagem: "gellmann.png"
+imagem: "gellmann"
 tags:
   - "tag 001"
   - "tag 001"

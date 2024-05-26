@@ -1,9 +1,8 @@
 ---
-id: 14
-nome: "Fóton"
-deck: "Feynmann"
+nome: "foton"
+deck: "feynmann"
 genio: false
-imagem: "foton.png"
+imagem: "foton"
 tags:
   - "tag 001"
   - "tag 001"

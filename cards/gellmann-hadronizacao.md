@@ -1,9 +1,8 @@
 ---
-id: 13
-nome: "Hadronização"
-deck: "Gell-Mann"
+nome: "hadronizacao"
+deck: "gell-mann"
 genio: false
-imagem: "hadronizacao.png"
+imagem: "hadronizacao"
 tags:
   - "tag 001"
   - "tag 001"

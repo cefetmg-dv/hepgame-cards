@@ -1,9 +1,8 @@
 ---
-id: 6
-nome: "Elétron"
-deck: "Dirac"
+nome: "eletron"
+deck: "dirac"
 genio: false
-imagem: "eletron-dirac.png"
+imagem: "eletron-dirac"
 tags:
   - "tag 001"
   - "tag 001"

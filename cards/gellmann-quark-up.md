@@ -1,9 +1,8 @@
 ---
-id: 4
-nome: "Quark Up"
+nome: "quark-up"
 deck: "Gell-Mann"
 genio: false
-imagem: "quark-up.png"
+imagem: "quark-up"
 tags:
   - "tag 001"
   - "tag 001"

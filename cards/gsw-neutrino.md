@@ -1,9 +1,8 @@
 ---
-id: 16
-nome: "Neutrino"
-deck: "GSW"
+nome: "neutrino"
+deck: "gsw"
 genio: false
-imagem: "neutrino.png"
+imagem: "neutrino"
 tags:
   - "tag 001"
   - "tag 001"

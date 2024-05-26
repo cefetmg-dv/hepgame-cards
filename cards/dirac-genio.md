@@ -1,9 +1,8 @@
 ---
-id: 5
-nome: "Paul Dirac"
-deck: "Dirac"
+nome: "paul-dirac"
+deck: "dirac"
 genio: true
-imagem: "dirac.png"
+imagem: "dirac"
 tags:
   - "tag 001"
   - "tag 001"

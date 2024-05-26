@@ -1,9 +1,8 @@
 ---
-id: 2
-nome: "Glúon"
-deck: "Gell-Mann"
+nome: "gluon"
+deck: "gell-mann"
 genio: false
-imagem: "gluon.png"
+imagem: "gluon"
 tags:
   - "tag 001"
   - "tag 001"

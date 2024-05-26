@@ -1,9 +1,8 @@
 ---
-id: 12
-nome: "Liberdade Assintótica"
+nome: "liberdade-assintotica"
 deck: "Gell-Mann"
 genio: false
-imagem: "liberdade-assintotica.png"
+imagem: "liberdade-assintotica"
 tags:
   - "tag 001"
   - "tag 001"

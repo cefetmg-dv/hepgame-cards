@@ -1,9 +1,8 @@
 ---
-id: 11
-nome: "Nêutron"
+nome: "proton"
 deck: "composta"
 genio: false
-imagem: "neutron.png"
+imagem: "proton"
 tags:
   - "tag 001"
   - "tag 001"
